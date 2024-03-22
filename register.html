@@ -73,117 +73,115 @@
         </div>
       </nav>
     </header>
-    <main class="main">
-      <div class="container-sm">
-        <div class="custom-container">
-          <div class="wrapper py-5 w-100">
-            <div class="d-flex justify-content-center flex-column pb-2">
-              <!-- <GoBackButton /> -->
-              <h2 class="fw-medium fs-5">Registration</h2>
-              <p>Create an account to get the best out of Cab2Rent</p>
-            </div>
-            <form action="">
-              <div class="row row-cols-1 row-cols-md-2 g-3 mb-3">
-                <div class="">
-                  <label for="firstName" class="form-label mb-1 fw-medium">
-                    First name
-                  </label>
-                  <input
-                    type="text"
-                    id="firstName"
-                    name="firstName"
-                    class="form-control"
-                    placeholder="John"
-                    required
-                  />
-                </div>
-                <div class="">
-                  <label for="lastName" class="form-label mb-1 fw-medium">
-                    Last name
-                  </label>
-                  <input
-                    type="text"
-                    id="LastName"
-                    name="lastName"
-                    class="form-control"
-                    placeholder="Doe"
-                    required
-                  />
-                </div>
-              </div>
-              <div>
-                <div class="mb-3">
-                  <label for="phoneNumber" class="form-label mb-1 fw-medium">
-                    Phone Number
-                  </label>
-                  <input
-                    type="text"
-                    id="phoneNumber"
-                    name="phoneNumber"
-                    class="form-control"
-                    placeholder=" +1234567890 "
-                    required
-                  />
-                </div>
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label mb-1 fw-medium">
-                  Email
+    <main class="main d-flex justify-content-center py-4 px-3">
+      <div class="custom-container w-100">
+        <div class="py-5">
+          <div class="d-flex justify-content-center flex-column pb-2">
+            <!-- <GoBackButton /> -->
+            <h2 class="fw-medium fs-5 text-center">Registration</h2>
+            <p>Create an account to get the best out of Cab2Rent</p>
+          </div>
+          <form action="">
+            <div class="row row-cols-1 row-cols-md-2 g-3 mb-3">
+              <div class="">
+                <label for="firstName" class="form-label mb-1 fw-medium">
+                  First name
                 </label>
                 <input
-                  type="email"
-                  id="email"
-                  name="email"
+                  type="text"
+                  id="firstName"
+                  name="firstName"
                   class="form-control"
-                  placeholder="johndoe@email.com "
+                  placeholder="John"
                   required
                 />
               </div>
-              <div class="mb-3">
-                <label for="formFile" class="form-label"
-                  >Upload your drivers license
+              <div class="">
+                <label for="lastName" class="form-label mb-1 fw-medium">
+                  Last name
                 </label>
-                <input class="form-control" type="file" id="formFile" />
+                <input
+                  type="text"
+                  id="LastName"
+                  name="lastName"
+                  class="form-control"
+                  placeholder="Doe"
+                  required
+                />
               </div>
-
+            </div>
+            <div>
               <div class="mb-3">
                 <label for="phoneNumber" class="form-label mb-1 fw-medium">
-                  Password
+                  Phone Number
                 </label>
                 <input
-                  type="password"
-                  id="password"
-                  name="password"
+                  type="text"
+                  id="phoneNumber"
+                  name="phoneNumber"
                   class="form-control"
-                  placeholder="****************"
+                  placeholder=" +1234567890 "
                   required
                 />
               </div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label mb-1 fw-medium">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                placeholder="johndoe@email.com "
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label"
+                >Upload your drivers license
+              </label>
+              <input class="form-control" type="file" id="formFile" />
+            </div>
 
-              <div class="mb-3">
-                <label for="confirm-password" class="form-label mb-1 fw-medium">
-                  Confirm Password
-                </label>
-                <input
-                  type="password"
-                  id="confirm-password"
-                  name="confirm-password"
-                  class="form-control"
-                  placeholder="****************"
-                  required
-                />
-              </div>
-              <button
-                type="button"
-                class="justify-content-center btn w-100 mt-3 d-flex gap-2 align-items-center fw-bolder shadow custom-btn"
-              >
-                <span class="text-white">Create Account</span>
-              </button>
-            </form>
-            <p class="no-acc">
-              Already have an account? <a href="/login.html">Login</a>
-            </p>
-          </div>
+            <div class="mb-3">
+              <label for="phoneNumber" class="form-label mb-1 fw-medium">
+                Password
+              </label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="form-control"
+                placeholder="****************"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="confirm-password" class="form-label mb-1 fw-medium">
+                Confirm Password
+              </label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                class="form-control"
+                placeholder="****************"
+                required
+              />
+            </div>
+            <button
+              type="button"
+              class="justify-content-center btn w-100 mt-3 d-flex gap-2 align-items-center fw-bolder shadow custom-btn"
+            >
+              <span class="text-white">Create Account</span>
+            </button>
+          </form>
+          <p class="no-acc">
+            Already have an account? <a href="/login.html">Login</a>
+          </p>
         </div>
       </div>
     </main>
