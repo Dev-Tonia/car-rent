@@ -151,6 +151,12 @@ nav .navbar-brand {
   color: var(--custom-pri);
 }
 
+/* Customizing the form control on focus for all form fields */
+.form-control:focus {
+  border-color: #ff5c00;
+  box-shadow: none;
+}
+
 /* Forms background imgs */
 .custom-container {
   max-width: 520px;
