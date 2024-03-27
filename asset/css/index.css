@@ -19,6 +19,16 @@ section {
 main {
   min-height: 80vh;
 }
+
+/* Hero Title  */
+.hero__title {
+  font-size: 50px !important;
+}
+/* for spans that is to customize a specific text */
+.special {
+  color: var(--custom-pri);
+}
+
 /* button */
 .custom-btn {
   background-color: var(--custom-pri);
@@ -179,5 +189,8 @@ nav .navbar-brand {
 @media (max-width: 640px) {
   section {
     padding: 30px 20px;
+  }
+  .hero__title {
+    font-size: 65px !important;
   }
 }

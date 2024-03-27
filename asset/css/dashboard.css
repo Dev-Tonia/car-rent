@@ -34,6 +34,9 @@ aside {
   border-top: transparent;
   padding: 15px;
 }
+.price {
+  color: rgb(255, 92, 0);
+}
 
 .password .max-width {
   max-width: 520px;

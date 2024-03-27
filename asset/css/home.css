@@ -6,12 +6,6 @@
 .hero {
   background: url(../images/Ellipse1.png) no-repeat right -10px top;
 }
-.hero__title {
-  font-size: 50px !important;
-}
-.special {
-  color: var(--custom-pri);
-}
 
 .icon {
   width: 64px;
@@ -24,9 +18,3 @@
 }
 
 /* Media Queries */
-
-@media (min-width: 640px) {
-  .hero__title {
-    font-size: 65px !important;
-  }
-}
